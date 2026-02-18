@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Explainable Physicochemical Determinants of Protein–Ligand Binding via Non-Covalent Interactions</title>
+
+  <meta name="description"
+        content="Explainable Physicochemical Determinants of Protein–Ligand Binding via Non-Covalent Interactions" />
+  <meta name="keywords"
+        content="Protein–Ligand Binding, Non-covalent Interactions" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- CSS (FusionDTI original) -->
+  <link rel="stylesheet" href="./static/css/bulma.min.css" />
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link rel="stylesheet" href="./static/css/index.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/ExplainBind_logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/ExplainBind_logo.png">
+</head>
+
+<body style="font-family:'Times New Roman', Times, serif; font-size:18px;">
+
+<!-- ======================== HERO ======================== -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-fullwidth">
+
+      <!-- Header -->
+      <div class="columns is-vcentered"
+           style="border-bottom:1px solid rgba(0,0,0,.08);
+                  padding-bottom:1rem; margin-bottom:1.5rem;">
+        <div class="column is-narrow header-logo-column">
+          <img src="./assets/ExplainBind_logo.png"
+               alt="ExplainBind Logo"
+               style="width:140px;" />
+        </div>
+        <div class="column has-text-centered header-title-column">
+          <h1 class="title is-2 publication-title">
+            Explainable Physicochemical Determinants of Protein–Ligand Binding via Non-Covalent Interactions
+          </h1>
+        </div>
+      </div>
+
+      <!-- Authors -->
+      <div class="publication-authors has-text-centered">
+        <span class="author-block">
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=gM9yaCkAAAAJ">Zhaohan Meng</a><sup>1†</sup>
+        </span>
+        <span class="dot-sep">·</span>
+        <span class="author-block">
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=Rk-RIIMAAAAJ">Zhen Bai</a><sup>2†</sup>
+        </span>
+        <span class="dot-sep">·</span>
+        <span class="dot-sep">·</span>
+        <span class="author-block">
+          <a href="https://www.dcs.gla.ac.uk/~ounis/">Iadh Ounis</a><sup>1</sup>
+        </span>
+        <span class="dot-sep">·</span>
+        <span class="author-block">
+          <a href="https://www.crukscotlandinstitute.ac.uk/cruk-si-research/cruk-si-research-groups/ke-yuan.html">Ke Yuan</a><sup>3,4</sup>
+        </span>
+        <br/>
+        <span class="author-block">
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=cba3bIAAAAAJ">William Oldham</a><sup>5,6*</sup>
+        </span>
+        <span class="author-block">
+          <a href="https://mengzaiqiao.github.io/">Zaiqiao Meng</a><sup>1,7*</sup>
+        </span>
+        <span class="dot-sep">·</span>
+        <span class="author-block">
+          <a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/225592">Hao Xu</a><sup>8*</sup>
+        </span>
+        <span class="dot-sep">·</span>
+        <span class="author-block">
+          <a href="https://www.brighamandwomens.org/research/labs-and-projects/loscalzo/joseph-loscalzo-md-phd-bio">Joseph Loscalzo</a><sup>8*</sup>
+        </span>
+      </div>
+
+      <!-- Affiliations -->
+      <div class="has-text-centered" style="margin-top:1rem;">
+        <div><sup>1</sup> School of Computing Science, University of Glasgow</div>
+        <div><sup>2</sup> School of Life Science and Technology, Institute of Science Tokyo</div>
+        <div><sup>3</sup> School of Cancer Sciences, University of Glasgow</div>
+        <div><sup>4</sup> Cancer Research UK Scotland Institute</div>
+        <div><sup>5</sup> Department of Medicine, The Warren Alpert School of Medicine, Brown University</div>
+        <div><sup>6</sup> Center for Advanced Lung Care, Brown University Health</div>
+        <div><sup>7</sup> Language Technology Lab, University of Cambridge</div>
+        <div><sup>8</sup> Department of Medicine, Brigham and Women’s Hospital, Harvard Medical School, Harvard University</div>
+      </div>
+
+      <!-- Footnotes -->
+      <div class="has-text-centered" style="margin-top:.8rem; font-size:90%;">
+        † Equal contribution;  * Corresponding authors <br/>
+        William Oldham (<a href="mailto:woldham@bwh.harvard.edu">woldham@bwh.harvard.edu</a>),
+        Zaiqiao Meng (<a href="mailto:zm324@cam.ac.uk">zm324@cam.ac.uk</a>),<br/>
+        Hao Xu (<a href="mailto:haxu@bwh.harvard.edu">haxu@bwh.harvard.edu</a>),
+        Joseph Loscalzo (<a href="mailto:jloscalzo@bwh.harvard.edu">jloscalzo@bwh.harvard.edu</a>)
+      </div>
+
+      <!-- Buttons -->
+      <div class="publication-links">
+
+        <!-- <span class="link-block">
+          <a href="https://arxiv.org/abs/2509.XXXXX" target="_blank" rel="noopener"
+             class="external-link button is-normal is-rounded is-danger">
+            <span class="icon"><i class="ai ai-arxiv"></i></span>
+            <span>Paper</span>
+          </a>
+        </span> -->
+
+        <span class="link-block">
+          <a href="https://github.com/ZhaohanM/ExplainBind" target="_blank" rel="noopener"
+             class="external-link button is-normal is-rounded is-dark">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>Source Code</span>
+          </a>
+        </span>
+
+        <span class="link-block">
+          <a href="https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind" target="_blank" rel="noopener"
+             class="external-link button is-normal is-rounded is-link">
+            <span class="icon"><i class="far fa-images"></i></span>
+            <span>Demo UI</span>
+          </a>
+        </span>
+
+        <!-- <span class="link-block">
+          <a href="https://huggingface.co/collections/ZhaohanM/ExplainBind" target="_blank" rel="noopener"
+             class="external-link button is-normal is-rounded is-warning">
+            <span class="icon"><i class="fas fa-database"></i></span>
+            <span>Datasets</span>
+          </a>
+        </span> -->
+
+        <!-- <span class="link-block">
+          <a href="https://huggingface.co/" target="_blank" rel="noopener"
+             class="external-link button is-normal is-rounded is-primary">
+            <span class="icon"><i class="fas fa-share-square"></i></span>
+            <span>Models</span>
+          </a>
+        </span> -->
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================== NEWS ======================== -->
+<section class="section">
+   <div class="container is-max-widescreen">
+    <h2 class="title is-3">News</h2>
+    <ul>
+      <!-- <li><b>[Feb 2026]</b> Introduced <b>InteractBind</b> with residue–atom ground-truth interaction maps.</li> -->
+      <li><b>[Feb 2026]</b> ExplainBind demo UI released on hugging face space.</li>
+      <li><b>[Feb 2026]</b> Preprint will be available on bioarXiv soon.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================== MOTIVATION (Typing) ======================== -->
+<section class="section">
+  <div class="container is-max-widescreen has-text-centered">
+
+    <div style="display:flex; flex-direction:column; align-items:center;
+                gap:8px; max-width:980px; margin:0 auto;">
+
+      <a href="https://readme-typing-svg.vercel.app" style="display:block;">
+        <img
+          src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=22&duration=5000&pause=2800&color=3B82F6&center=true&vCenter=true&width=1100&lines=How+to+fundamentally+advance+protein–ligand+binding+prediction%3F;How+to+address+existing+PLB+models+black+boxes+reasoning%3F;What+causes+performance+drops+under+out-of-distribution+settings%3F;Do+model+attention+patterns+truly+reflect+underlying+binding+mechanisms%3F&v=8"
+          style="max-width:100%; height:auto;" />
+      </a>
+
+      <a href="https://readme-typing-svg.vercel.app" style="display:block;">
+        <img
+          src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=22&duration=5000&pause=2800&color=F77D67&center=true&vCenter=true&width=1100&lines=Supervise+interaction+with+physically+non-covalent+interactions+map.;Introduce+an+InteractBind+database+with+ground-truth+interaction+maps.;Reveals+protein+sequence+similarity+as+a+key+driver+of+generalisation.;Visualise+that+top-ranked+residues+token+to+localises+binding+pockets.&v=8"
+          style="max-width:100%; height:auto; margin-top:6px;" />
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================== OVERVIEW ======================== -->
+<section class="section">
+  <div class="container is-max-widescreen">
+    <h2 class="title is-3">Overview</h2>
+    <div class="content">
+      <p>
+        <b>ExplainBind</b> is an interaction-aware framework for protein–ligand binding (PLB) prediction.
+        It supervises token-level cross-attention using non-covalent interaction maps derived from curated
+        PDB protein–ligand complexes in <b>InteractBind</b>.
+        By aligning model attention with physically grounded interaction signals, ExplainBind transforms
+        PLB prediction from a black-box reasoning into a chemistry-grounded process suitable
+        for large-scale screening.
+      </p>
+      <figure>
+        <img src="./assets/ExplainBind_main.png" alt="ExplainBind Framework" />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== DEMO ======================== -->
+<section class="section hero is-light" id="Demo">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Demo UI</h2>
+
+        <div class="content has-text-centered">
+          <p>
+            Explore <strong>ExplainBind</strong> through an interactive web-based demo.
+            The interface visualises token-level interaction attention maps and enables
+            qualitative inspection of predicted binding mechanisms.
+          </p>
+        </div>
+
+        <!-- Embedded Hugging Face Space -->
+        <div style="margin-top: 1.8rem;">
+          <iframe
+            src="https://zhaohan-meng-explainbind.hf.space"
+            frameborder="0"
+            width="100%"
+            height="680"
+            style="border-radius: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+          </iframe>
+        </div>
+
+        <!-- External Launch Button (Fallback) -->
+        <div style="margin-top: 1.5rem;">
+          <a href="https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind"
+             target="_blank"
+             rel="noopener"
+             class="button is-link is-medium is-rounded">
+            🚀 Launch on Hugging Face
+          </a>
+        </div>
+
+        <p style="margin-top: 0.8rem; font-size: 0.9rem; color: #666;">
+          If the embedded demo fails to load, please use the external link above.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======================== ACKNOWLEDGEMENT ======================== -->
+<section class="section" id="Acknowledgement">
+  <div class="container is-max-widescreen">
+    <h2 class="title is-3">Acknowledgement</h2>
+
+    <p>
+      This work was supported in part by the National Institutes of Health under
+      grants <strong>HL155107</strong> and <strong>HL166137</strong>, and by the
+      American Heart Association through the <strong>MERIT Award AHA1185447</strong>
+      awarded to J.L. K.Y. acknowledges support from Cancer Research UK
+      (EDDPGM-Nov21/100001; DRCMDP-Nov23/100010; and core funding to the CRUK
+      Scotland Institute, <strong>A31287</strong>), the Biotechnology and Biological
+      Sciences Research Council (<strong>BB/V016067/1</strong>), Prostate Cancer UK
+      (<strong>MA-TIA22-001</strong>), and the European Union’s Horizon 2020
+      research and innovation programme (Grant Agreement No. <strong>101016851</strong>).
+    </p>
+
+  </div>
+</section>
+
+
+</body>
+</html>
