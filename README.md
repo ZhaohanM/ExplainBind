@@ -22,7 +22,7 @@
   <!-- Question line (Blue) -->
   <a href="https://readme-typing-svg.vercel.app">
     <img
-      src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=22&duration=5000&pause=2800&color=3B82F6&center=true&vCenter=true&width=900&lines=How+to+advance+PLI+prediction%3F;Why+treat+training+as+a+black-box%3F;Why+do+models+fail+out-of-domain%3F;Do+predicted+attention+maps+align+with+biology%3F&v=8"
+      src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=22&duration=5000&pause=2800&color=3B82F6&center=true&vCenter=true&width=1100&lines=How+to+fundamentally+advance+protein–ligand+binding+prediction%3F;How+to+address+existing+PLB+models+black+boxes+reasoning%3F;What+causes+performance+drops+under+out-of-distribution+settings%3F;Do+model+attention+patterns+truly+reflect+underlying+binding+mechanisms%3F&v=8"
       alt="ExplainBind Question"
       style="display:block;"
     />
@@ -31,7 +31,7 @@
   <!-- Answer line (Orange) -->
   <a href="https://readme-typing-svg.vercel.app">
     <img
-      src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=22&duration=5000&pause=2800&color=F77D67&center=true&vCenter=true&width=900&lines=Provide+nine+new+benchmarks+with+true+interaction+maps.;Break+it+-+Supervise+with+real+interaction+attention+maps.;Protein+sequence+similarity+is+the+key+factor.;Top+k25+of+attentions+hit+protein+binding+pockets.&v=8"
+      src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=22&duration=5000&pause=2800&color=F77D67&center=true&vCenter=true&width=1100&lines=Supervise+interaction+with+physically+non-covalent+interactions+map.;Introduce+an+InteractBind+database+with+ground-truth+interaction+maps.;Reveals+protein+sequence+similarity+as+a+key+driver+of+generalisation.;Visualise+that+top-ranked+residues+token+to+localises+binding+pockets.&v=8"
       alt="ExplainBind Answer"
       style="display:block; margin-top:6px;"
     />
