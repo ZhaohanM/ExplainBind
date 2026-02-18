@@ -1,6 +1,6 @@
 <!-- Add logo here -->
 <h1 align="center">
-  <img src="./assets/ExplainBind_logo.png" alt="ExplainBind Logo" height="120" style="position: relative; top: 40px;"/>
+  <img src="./assets/ExplainBind_logo.png" alt="ExplainBind Logo" height="60" style="position: relative; top: 40px;"/>
   <strong>Explainable Physicochemical Determinants of Protein–Ligand Binding via Non-Covalent Interactions</strong>
 </h1>
 
@@ -31,8 +31,8 @@
 
 <!-- ───── Project Badges ───── -->
 [![Project Page](https://img.shields.io/badge/Project-Page-4285F4?style=for-the-badge&logo=googlelens&logoColor=4285F4)](https://zhaohanm.github.io/ExplainBind/)
-[![arXiv](https://img.shields.io/badge/arXiv-2509.XXXXX-b31b1b?style=for-the-badge&logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2509.XXXXX)
-[![Gradio UI](https://img.shields.io/badge/Gradio-Online_Demo-FFCC00?style=for-the-badge&logo=gradio&logoColor=yellow&labelColor=grey)](https://huggingface.co/spaces/ZhaohanM/ExplainBind)
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-2509.XXXXX-b31b1b?style=for-the-badge&logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2406.01651)-->
+[![Gradio UI](https://img.shields.io/badge/Gradio-Online_Demo-FFCC00?style=for-the-badge&logo=gradio&logoColor=yellow&labelColor=grey)](https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind)
 <!-- [![Dataset](https://img.shields.io/badge/_Dataset-AECBFA?style=for-the-badge&logo=huggingface&logoColor=FFCC00&labelColor=grey)](https://huggingface.co/collections/ZhaohanM/ExplainBind) -->
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/ZhaohanM/ExplainBind/blob/main/LICENSE)
 [![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FZhaohanM%2FExplainBind&label=Views&countColor=%23f36f43&style=for-the-badge)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FZhaohanM%2FExplainBind)
@@ -42,7 +42,7 @@
 ## 🔥 News
 <!-- - **[Feb 2026]** 🧩 Introduce **InteractBind** with residue–atom ground-truth interaction maps. -->
 - **[Feb 2026]** 🧠 Preprint will available soon!
-- **[Feb 2026]** 🚀 ExplainBind demo UI is now live on [Hugging Face Spaces](https://huggingface.co/spaces/ZhaohanM/ExplainBind)!
+- **[Feb 2026]** 🚀 ExplainBind demo UI is now live on [Hugging Face Spaces](https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind)!
 <!-- [ArXiv](https://arxiv.org/abs/2509.XXXXX). -->
 ## 🧩 Overview
 
