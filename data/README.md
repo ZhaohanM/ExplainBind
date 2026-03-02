@@ -21,12 +21,21 @@ InteractBind is constructed from high-quality experimentally resolved complexes 
 
 - 🧬 Protein sequences (FASTA and structure-aware sequence)
 - 💊 Ligand molecular representations (SMILES and SELFIES)
-- 📈 Binding labels and affinity annotations  
+- 📈 Binding labels and affinity annotations
 - 🗺️ Token-level non-covalent interaction maps  
 
 The dataset is designed to support both **prediction accuracy** and **mechanistic interpretability**.
 
 ---
+## 🧫 Dataset
+
+We provide **9 benchmarks** with true residue–level interaction maps for PLI prediction evaluation.
+
+| Dataset | Type | Example Use |
+|----------|------|--------------|
+| InteractBind (affinity) | Affinity score splits | Evaluate in-domain |
+| InteractBind-P-25%/28%/31%/33% | Protein similarity splits | Evaluate sequence-level generalisation |
+| InteractBind-L-08%/35%/40%/59% | Ligand similarity splits | Evaluate sequence-level generalisation |
 
 ## 🧪 Supported Interaction Types  
 
@@ -34,7 +43,7 @@ Structured annotations are provided for major non-covalent interaction categorie
 
 - Hydrogen bonds  
 - Hydrophobic interactions  
-- Salt bridging  
+- Salt bridges  
 - π–π stacking  
 - π–cation interactions  
 - Van der Waals contacts  
