@@ -127,7 +127,7 @@ We provide **9 benchmarks** with true residue–level interaction maps for PLI p
 |----------|------|--------------|
 | InteractBind (affinity) | Affinity score splits | Evaluate in-domain |
 | InteractBind-P-25%/28%/31%/33% | Protein similarity splits | Evaluate sequence-level generalisation |
-| InteractBind-L-06%/43%/62%/88% | Ligand similarity splits | Evaluate sequence-level generalisation |
+| InteractBind-L-08%/35%/40%/59% | Ligand similarity splits | Evaluate sequence-level generalisation |
 
 
 <!-- ## 📝 Citation
