@@ -41,6 +41,7 @@
 
 <!-- ───── Project Badges ───── -->
 [![Project Page](https://img.shields.io/badge/Project-Page-4285F4?style=for-the-badge&logo=googlelens&logoColor=4285F4)](https://zhaohanm.github.io/ExplainBind/)
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-preprint-00A86B?style=for-the-badge&logo=biorxiv&logoColor=white)](https://doi.org/10.64898/2026.03.03.707476)
 [![Gradio UI](https://img.shields.io/badge/Gradio-Online_Demo-FFCC00?style=for-the-badge&logo=gradio&logoColor=yellow&labelColor=grey)](https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/ZhaohanM/ExplainBind/blob/main/LICENSE)
 [![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2FZhaohanM%2FExplainBind&label=Views&countColor=%23f36f43&style=for-the-badge)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FZhaohanM%2FExplainBind)
@@ -49,7 +50,7 @@
 
 ## 🔥 News
 <!-- - **[Feb 2026]** 🧩 Introduce **InteractBind** with residue–atom ground-truth interaction maps. -->
-- **[March 2026]** ⛳ Our preprint is now available on [Biorxiv](https://doi.org/10.64898/2026.03.03.707476).
+- **[March 2026]** ⛳ Our preprint is now available on [biorXiv](https://doi.org/10.64898/2026.03.03.707476).
 - **[Feb 2026]** 🚀 ExplainBind demo UI is now live on [Hugging Face Spaces](https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind)!
 
 ## 🧩 Overview
