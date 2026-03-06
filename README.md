@@ -49,9 +49,9 @@
 
 ## 🔥 News
 <!-- - **[Feb 2026]** 🧩 Introduce **InteractBind** with residue–atom ground-truth interaction maps. -->
-- **[Feb 2026]** 🧠 Preprint will available soon!
+- **[March 2026]** ⛳ Our preprint is now available on [Biorxiv](https://doi.org/10.64898/2026.03.03.707476).
 - **[Feb 2026]** 🚀 ExplainBind demo UI is now live on [Hugging Face Spaces](https://huggingface.co/spaces/Zhaohan-Meng/ExplainBind)!
-<!-- [ArXiv](https://arxiv.org/abs/2509.XXXXX). -->
+
 ## 🧩 Overview
 
 **ExplainBind** is an interaction-aware framework for **protein–ligand binding (PLB)** prediction.  
